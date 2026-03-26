@@ -24,11 +24,5 @@ def process_invoices(input):
 
     return f"Valid invoices: {valid_invoices},\nTotal amount: {total_amount}"
 
-invoices = [
-    {"invoice_id": 1, "amount": 150, "status": "paid"},
-    {"invoice_id": 2, "amount": -30, "status": "paid"},
-    {"invoice_id": 3, "amount": 200, "status": "pending"},
-    {"invoice_id": 4, "amount": 100, "status": "paid"}
-]
 
 print(process_invoices(invoices))
